@@ -41,6 +41,12 @@ body{
 .greetings > span:nth-child(5){
     animation-delay: .8s;
 }
+.greetings > span:nth-child(6){
+    animation-delay: .10s;
+}
+.greetings > span:nth-child(7){
+    animation-delay: .12s;
+}
 
 .description{
     font-size: 1.5rem;
@@ -80,12 +86,12 @@ p span:before {
 
 @keyframes gerak {
     0% {
-        content: ' Final Exception';
+        content: ' Eu te amo tanto';
     }
     50% {
-        content: ' Não de flores, peça logo em casamento';
+        content: ' Não sei como esplicar';
     }
     100% {
-        content: ' Já deixo as estelas em meu GitHub??';
+        content: ' Você é minha vida!';
     }
 }
